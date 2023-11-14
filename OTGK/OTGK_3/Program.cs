@@ -5,9 +5,37 @@ using System.Text;
 
 public class Shop
 {
-    public string MaSP, TenSP, PhanLoai;
-    public int TonKho, GiaBan;
+    private string MaSP, TenSP, PhanLoai;
+    private int TonKho, GiaBan;
 
+    public string GetMaSP()
+    {
+        return MaSP;
+    }
+    public string GetTenSP()
+    {
+        return TenSP;
+    }
+    public string GetPhanLoai()
+    {
+        return PhanLoai;
+    }
+    public int GetTonKho()
+    {
+        return TonKho;
+    }
+    public int GetGiaBan()
+    {
+        return GiaBan;
+    }
+    public void SetTonKho(int tonKho)
+    {
+        TonKho = tonKho;
+    }
+    public void SetGiaBan(int giaBan)
+    {
+        GiaBan = giaBan;
+    }
     public Shop(string MaSP, string TenSP, int TonKho, string PhanLoai, int GiaBan)
     {
         this.MaSP = MaSP;
@@ -40,17 +68,17 @@ public class QuanLyShop
         string ma = Console.ReadLine();
         foreach (var sp in QL)
         {
-            if (sp.MaSP == ma)
+            if (sp.GetMaSP() == ma)
             {
                 Console.Write("Nhập Số Lượng cập nhật: ");
-                sp.TonKho = int.Parse(Console.ReadLine());
+                sp.SetTonKho(int.Parse(Console.ReadLine()));
                 Console.Write("Nhập Giá cập nhật: ");
-                sp.GiaBan = int.Parse(Console.ReadLine());
+                sp.SetGiaBan(int.Parse(Console.ReadLine()));
             }
         }
         Console.WriteLine("Danh sách sản phẩm sau khi thay đổi: ");
         foreach (var sp in QL)
-            Console.WriteLine($"{sp.MaSP}; {sp.TenSP}; {sp.TonKho}; {sp.PhanLoai}; {sp.GiaBan}");
+            Console.WriteLine($"{sp.GetMaSP()}; {sp.GetTenSP()}; {sp.GetTonKho()}; {sp.GetPhanLoai()}; {sp.GetGiaBan()}");
     }
 
     public void ThongKe()
@@ -59,10 +87,10 @@ public class QuanLyShop
         Console.WriteLine("Sản phẩm có lượng tồn kho thấp: ");
         foreach (var sp in QL)
         {
-            if (sp.TonKho <= 10)
+            if (sp.GetTonKho() <= 10)
             {
                 dem++;
-                Console.WriteLine($"{sp.MaSP}; {sp.TenSP}; {sp.TonKho}; {sp.PhanLoai}; {sp.GiaBan}");
+                Console.WriteLine($"{sp.GetMaSP()}; {sp.GetTenSP()}; {sp.GetTonKho()}; {sp.GetPhanLoai()}; {sp.GetGiaBan()}");
             }
         }
         Console.WriteLine("Tổng = {0}", dem);
@@ -75,17 +103,17 @@ public class QuanLyShop
         {
             Console.Write("Nhập MaSP muốn mua: ");
             string ma = Console.ReadLine();
-            var sp = QL.Find(Sp => Sp.MaSP == ma);
+            var sp = QL.Find(Sp => Sp.GetMaSP() == ma);
             if (sp == null)
                 Console.WriteLine("Không hợp lệ");
             else
             {
                 Console.Write("Nhập Số Lượng muốn mua: ");
                 int sl = int.Parse(Console.ReadLine());
-                if (sl > sp.TonKho)
+                if (sl > sp.GetTonKho())
                     Console.WriteLine("Không hợp lệ");
                 else
-                    tong += sl * sp.GiaBan;
+                    tong += sl * sp.GetGiaBan();
             }
             Console.Write("Tiếp tục? (Nhập 'k' để kết thúc): ");
             string kt = Console.ReadLine();
