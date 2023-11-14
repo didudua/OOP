@@ -1,0 +1,16 @@
+145;	Ao so mi;	10;		Ao;		200000
+724;	Ao thun;	15;		Ao;		250000
+921;	Set tieu thu;	12;		Set;		379000
+822;	Quan dui;	11;		Quan;		345000
+112;	Quan kaki;	16;		Quan;		355000
+801;	Vay xep li;	25;		Vay;		348000
+123;	Quan tay;	24;		Quan;		357000
+192;	Quan tay;	27;		Quan;		800000
+824;	Vay midi;	15;		Vay;		800000
+612;	Ao co lo;	16;		Ao;		250000
+192;	Ao khoac;	14;		Ao khoac;	680000
+211;	Ao khoac;	16;		Ao khoac;	280000
+199;	Set vest;	14;		Set;		590000
+129;	Set cong so;	16;		Set;		360000
+180;	Tui mini;	15;		Tui;		340000
+133;	Tui da;		14;		Tui;		700000

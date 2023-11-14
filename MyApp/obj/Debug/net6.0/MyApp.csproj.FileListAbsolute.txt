@@ -1,0 +1,15 @@
+G:\HocTap\OOP\MyApp\bin\Debug\net6.0\MyApp.exe
+G:\HocTap\OOP\MyApp\bin\Debug\net6.0\MyApp.deps.json
+G:\HocTap\OOP\MyApp\bin\Debug\net6.0\MyApp.runtimeconfig.json
+G:\HocTap\OOP\MyApp\bin\Debug\net6.0\MyApp.dll
+G:\HocTap\OOP\MyApp\bin\Debug\net6.0\MyApp.pdb
+G:\HocTap\OOP\MyApp\obj\Debug\net6.0\MyApp.csproj.AssemblyReference.cache
+G:\HocTap\OOP\MyApp\obj\Debug\net6.0\MyApp.GeneratedMSBuildEditorConfig.editorconfig
+G:\HocTap\OOP\MyApp\obj\Debug\net6.0\MyApp.AssemblyInfoInputs.cache
+G:\HocTap\OOP\MyApp\obj\Debug\net6.0\MyApp.AssemblyInfo.cs
+G:\HocTap\OOP\MyApp\obj\Debug\net6.0\MyApp.csproj.CoreCompileInputs.cache
+G:\HocTap\OOP\MyApp\obj\Debug\net6.0\MyApp.dll
+G:\HocTap\OOP\MyApp\obj\Debug\net6.0\refint\MyApp.dll
+G:\HocTap\OOP\MyApp\obj\Debug\net6.0\MyApp.pdb
+G:\HocTap\OOP\MyApp\obj\Debug\net6.0\MyApp.genruntimeconfig.cache
+G:\HocTap\OOP\MyApp\obj\Debug\net6.0\ref\MyApp.dll

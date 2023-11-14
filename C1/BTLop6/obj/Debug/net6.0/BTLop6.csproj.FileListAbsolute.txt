@@ -1,0 +1,15 @@
+G:\HocTap\OOP\C1\BTLop6\bin\Debug\net6.0\BTLop6.exe
+G:\HocTap\OOP\C1\BTLop6\bin\Debug\net6.0\BTLop6.deps.json
+G:\HocTap\OOP\C1\BTLop6\bin\Debug\net6.0\BTLop6.runtimeconfig.json
+G:\HocTap\OOP\C1\BTLop6\bin\Debug\net6.0\BTLop6.dll
+G:\HocTap\OOP\C1\BTLop6\bin\Debug\net6.0\BTLop6.pdb
+G:\HocTap\OOP\C1\BTLop6\obj\Debug\net6.0\BTLop6.csproj.AssemblyReference.cache
+G:\HocTap\OOP\C1\BTLop6\obj\Debug\net6.0\BTLop6.GeneratedMSBuildEditorConfig.editorconfig
+G:\HocTap\OOP\C1\BTLop6\obj\Debug\net6.0\BTLop6.AssemblyInfoInputs.cache
+G:\HocTap\OOP\C1\BTLop6\obj\Debug\net6.0\BTLop6.AssemblyInfo.cs
+G:\HocTap\OOP\C1\BTLop6\obj\Debug\net6.0\BTLop6.csproj.CoreCompileInputs.cache
+G:\HocTap\OOP\C1\BTLop6\obj\Debug\net6.0\BTLop6.dll
+G:\HocTap\OOP\C1\BTLop6\obj\Debug\net6.0\refint\BTLop6.dll
+G:\HocTap\OOP\C1\BTLop6\obj\Debug\net6.0\BTLop6.pdb
+G:\HocTap\OOP\C1\BTLop6\obj\Debug\net6.0\BTLop6.genruntimeconfig.cache
+G:\HocTap\OOP\C1\BTLop6\obj\Debug\net6.0\ref\BTLop6.dll

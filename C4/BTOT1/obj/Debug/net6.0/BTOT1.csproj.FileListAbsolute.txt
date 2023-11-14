@@ -1,0 +1,15 @@
+G:\HocTap\OOP\C4\BTOT1\obj\Debug\net6.0\BTOT1.csproj.AssemblyReference.cache
+G:\HocTap\OOP\C4\BTOT1\obj\Debug\net6.0\BTOT1.GeneratedMSBuildEditorConfig.editorconfig
+G:\HocTap\OOP\C4\BTOT1\obj\Debug\net6.0\BTOT1.AssemblyInfoInputs.cache
+G:\HocTap\OOP\C4\BTOT1\obj\Debug\net6.0\BTOT1.AssemblyInfo.cs
+G:\HocTap\OOP\C4\BTOT1\obj\Debug\net6.0\BTOT1.csproj.CoreCompileInputs.cache
+G:\HocTap\OOP\C4\BTOT1\bin\Debug\net6.0\BTOT1.exe
+G:\HocTap\OOP\C4\BTOT1\bin\Debug\net6.0\BTOT1.deps.json
+G:\HocTap\OOP\C4\BTOT1\bin\Debug\net6.0\BTOT1.runtimeconfig.json
+G:\HocTap\OOP\C4\BTOT1\bin\Debug\net6.0\BTOT1.dll
+G:\HocTap\OOP\C4\BTOT1\bin\Debug\net6.0\BTOT1.pdb
+G:\HocTap\OOP\C4\BTOT1\obj\Debug\net6.0\BTOT1.dll
+G:\HocTap\OOP\C4\BTOT1\obj\Debug\net6.0\refint\BTOT1.dll
+G:\HocTap\OOP\C4\BTOT1\obj\Debug\net6.0\BTOT1.pdb
+G:\HocTap\OOP\C4\BTOT1\obj\Debug\net6.0\BTOT1.genruntimeconfig.cache
+G:\HocTap\OOP\C4\BTOT1\obj\Debug\net6.0\ref\BTOT1.dll

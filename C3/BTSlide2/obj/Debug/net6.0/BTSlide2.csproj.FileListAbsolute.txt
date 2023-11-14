@@ -1,0 +1,15 @@
+G:\HocTap\OOP\C3\BTSlide2\obj\Debug\net6.0\BTSlide2.csproj.AssemblyReference.cache
+G:\HocTap\OOP\C3\BTSlide2\obj\Debug\net6.0\BTSlide2.GeneratedMSBuildEditorConfig.editorconfig
+G:\HocTap\OOP\C3\BTSlide2\obj\Debug\net6.0\BTSlide2.AssemblyInfoInputs.cache
+G:\HocTap\OOP\C3\BTSlide2\obj\Debug\net6.0\BTSlide2.AssemblyInfo.cs
+G:\HocTap\OOP\C3\BTSlide2\obj\Debug\net6.0\BTSlide2.csproj.CoreCompileInputs.cache
+G:\HocTap\OOP\C3\BTSlide2\bin\Debug\net6.0\BTSlide2.exe
+G:\HocTap\OOP\C3\BTSlide2\bin\Debug\net6.0\BTSlide2.deps.json
+G:\HocTap\OOP\C3\BTSlide2\bin\Debug\net6.0\BTSlide2.runtimeconfig.json
+G:\HocTap\OOP\C3\BTSlide2\bin\Debug\net6.0\BTSlide2.dll
+G:\HocTap\OOP\C3\BTSlide2\bin\Debug\net6.0\BTSlide2.pdb
+G:\HocTap\OOP\C3\BTSlide2\obj\Debug\net6.0\BTSlide2.dll
+G:\HocTap\OOP\C3\BTSlide2\obj\Debug\net6.0\refint\BTSlide2.dll
+G:\HocTap\OOP\C3\BTSlide2\obj\Debug\net6.0\BTSlide2.pdb
+G:\HocTap\OOP\C3\BTSlide2\obj\Debug\net6.0\BTSlide2.genruntimeconfig.cache
+G:\HocTap\OOP\C3\BTSlide2\obj\Debug\net6.0\ref\BTSlide2.dll
