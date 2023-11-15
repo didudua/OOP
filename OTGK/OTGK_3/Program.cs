@@ -122,7 +122,6 @@ public class QuanLyShop
         Console.WriteLine("Tổng Hóa Đơn Phải Trả: {0}", tong);
     }
 }
-
 class Program
 {
     static void Main()
