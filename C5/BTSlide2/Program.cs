@@ -15,7 +15,7 @@
     }
     public void Xuat()
     {
-        Console.WriteLine($"ID: {ID}, Name: {HoTen}, Tuoi: {Tuoi}, Diachi: {Diachi}");
+        Console.Write($"ID: {ID}, Name: {HoTen}, Tuoi: {Tuoi}, Diachi: {Diachi}");
     }
 }
 public class Students : People
@@ -30,21 +30,25 @@ public class Students : People
         DTP[1] = Console.ReadLine();
         DTP[2] = Console.ReadLine();
         DTB = (float.Parse(DTP[0]) + float.Parse(DTP[1]) + float.Parse(DTP[2])) / 3;
-        if (DTB >= 8)
+        if (DTB >= 8.5)
         {
             XepLoai = "Gioi";
         }
-        else if (DTB >= 6.5)
+        else if (DTB >= 7)
         {
             XepLoai = "Kha";
         }
-        else if (DTB >= 5)
+        else if (DTB >= 5.5)
         {
             XepLoai = "Trung binh";
         }
+        else if (DTB >= 4)
+        {
+            XepLoai = "Trung binh yeu";
+        }
         else
         {
-            XepLoai = "Yeu";
+            XepLoai = "Kem";
         }
         
     }
@@ -70,7 +74,7 @@ public class Lecture : People
     public void Xuat()
     {
         base.Xuat();
-        Console.Write($", Kinh Nghiem: {Kinhnghiem}, Chucvu: {Chucvu}, Hocvi: {Hocvi}");
+        Console.WriteLine($", Kinh Nghiem: {Kinhnghiem}, Chucvu: {Chucvu}, Hocvi: {Hocvi}");
     }
     
 }
