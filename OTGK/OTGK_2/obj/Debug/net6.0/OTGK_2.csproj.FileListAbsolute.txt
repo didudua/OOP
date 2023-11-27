@@ -21,3 +21,10 @@ G:\HocTap\OOP\OTGK\OTGK_2\obj\Debug\net6.0\OTGK_2.csproj.CoreCompileInputs.cache
 G:\HocTap\OOP\OTGK\OTGK_2\obj\Debug\net6.0\OTGK_2.dll
 G:\HocTap\OOP\OTGK\OTGK_2\obj\Debug\net6.0\refint\OTGK_2.dll
 G:\HocTap\OOP\OTGK\OTGK_2\obj\Debug\net6.0\OTGK_2.pdb
+G:\HocTap\OOP\OTGK\OTGK_2\bin\Debug\net6.0\OTGK_2.exe
+G:\HocTap\OOP\OTGK\OTGK_2\bin\Debug\net6.0\OTGK_2.deps.json
+G:\HocTap\OOP\OTGK\OTGK_2\bin\Debug\net6.0\OTGK_2.runtimeconfig.json
+G:\HocTap\OOP\OTGK\OTGK_2\bin\Debug\net6.0\OTGK_2.dll
+G:\HocTap\OOP\OTGK\OTGK_2\bin\Debug\net6.0\OTGK_2.pdb
+G:\HocTap\OOP\OTGK\OTGK_2\obj\Debug\net6.0\OTGK_2.genruntimeconfig.cache
+G:\HocTap\OOP\OTGK\OTGK_2\obj\Debug\net6.0\ref\OTGK_2.dll

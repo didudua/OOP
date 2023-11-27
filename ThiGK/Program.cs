@@ -138,7 +138,7 @@ class program
         Bấm 1: Thêm
         Bấm 2: Cách ly
         Bấm 3: Sắp xếp
-        Bấm 0: Exit");
+        Bấm 0: Exit")
         QuanlySuckhoe QL = new QuanlySuckhoe();
         while (true)
         {

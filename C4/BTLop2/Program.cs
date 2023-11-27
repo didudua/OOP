@@ -1,5 +1,4 @@
-﻿using Internal;
-using System;
+﻿using System;
 public class ChiTieu
 {
     private int Income;
@@ -15,7 +14,7 @@ public class ChiTieu
     {
         get { 
             Balances = Income - Outcome;
-            Cost = Outcome/Income*100
+            Cost = Outcome/Income*100;
             if (Balances < 10 || Cost >90)
             {
                 Console.WriteLine("Sap Het Tien !");

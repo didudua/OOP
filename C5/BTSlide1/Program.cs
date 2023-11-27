@@ -1,31 +1,48 @@
 ﻿using System;
 public class HT
 {
-    public float bk, dk, dt;
+    public float r, d, S;
     public static float pi = 3.14f;
-    public HT(float bk, float dk)
+    public HT(float r, float d)
     {
-        this.bk = bk;
-        this.dk = dk;
-        this.dt = pi * bk * bk;
+        this.r = r;
+        this.d = d;
+        this.S = pi * r * r;
     }
     public void Xuat()
     {
-        Console.Write($"bk = {bk}, dk = {dk}, dt = {dt}");
+        Console.Write($"r = {r}, d = {d}, S = {S}");
     }
 }
 public class HC : HT
 {
-    public float tt;
-    public HC(float bk, float dk) : base(bk, dk)
+    public float V;
+    public HC(float r, float d) : base(r, d)
     {
-        this.dt = 4 * pi * bk * bk;
-        this.tt = 4 / 3 * pi * bk * bk * bk;
+        this.S = 4 * pi * r * r;
+        this.V = 4 / 3 * pi * r * r * r;
     }
     public new void Xuat()
     {
         base.Xuat();
-        Console.WriteLine($", tt = {tt}");
+        Console.WriteLine($", V = {V}");
+    }
+}
+public class HTT : HT
+{
+    public float Cd,Sd,Sxq,Stp,Vhtt,h;
+    public HTT(float r,float d, float h) : base(r,d)
+    {
+        this.Cd = 2 * pi * r;
+        this.Sd = pi * r * r;
+        this.Sxq = Cd*h;
+        this.Stp = Sxq + Sd;
+        this.Vhtt = Sd*h;
+    }
+    public new void Xuat()
+    {
+        base.Xuat();
+        Console.WriteLine($",h ={h}, Cd = {Cd},Sd = {Sd}, Sxq = {Sxq}, Vhtt = {Vhtt}");
     }
 }
 class Program
@@ -37,5 +54,7 @@ class Program
         Console.WriteLine();
         HC b = new HC(3, 6);
         b.Xuat();
+        HTT c = new HTT(3,6,8);
+        c.Xuat();
     }
 }
