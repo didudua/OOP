@@ -15,7 +15,7 @@
     }
     public void Xuat()
     {
-        Console.Write($"ID: {ID}, Name: {HoTen}, Tuoi: {Tuoi}, Diachi: {Diachi}");
+        Console.WriteLine($"ID: {ID}, Name: {HoTen}, Tuoi: {Tuoi}, Diachi: {Diachi}");
     }
 }
 public class Students : People
@@ -81,22 +81,20 @@ public class Lecture : People
 class program 
 {
     static void Main()
-    {
-        People A = new People();
-        A.Xuat();
-        Students B = new Students(); // khi gọi thì nó sẽ chạy lớp cha trước, xong tới lớp con
+    {   
+        Students B = new Students();
         B.Xuat();
-        List<Lecture> DS = new List<Lecture>();
-        Lecture a = new Lecture();
-        Lecture b = new Lecture();
-        Lecture c = new Lecture();
-        DS.Add(a);
-        DS.Add(b);
-        DS.Add(c);
-        DS.Sort((x,y) => x.Kinhnghiem.CompareTo(y.Kinhnghiem));
-        foreach(var i in DS)
-        {
-            i.Xuat();
-        }
+        // List<Lecture> DS = new List<Lecture>();
+        // Lecture a = new Lecture();
+        // Lecture b = new Lecture();
+        // Lecture c = new Lecture();
+        // DS.Add(a);
+        // DS.Add(b);
+        // DS.Add(c);
+        // DS.Sort((x,y) => x.Kinhnghiem.CompareTo(y.Kinhnghiem));
+        // foreach(var i in DS)
+        // {
+        //     i.Xuat();
+        // }
     }
 }

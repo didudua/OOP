@@ -83,8 +83,8 @@ class program
                 tongTienLuxury += kh.Gia();
             }
         }
-        Console.WriteLine($"\nTong so tien cho thue phong Standard: {tongTienStandard}");
-        Console.WriteLine($"Tong so tien cho thue phong VIP: {tongTienVIP}");
+         Console.WriteLine($"\nTong so tien cho thue phong Standard va VIP: {tongTienStandard+tongTienVIP}");
+        
         
         Console.WriteLine();
         foreach (var kh in DS_KH)
