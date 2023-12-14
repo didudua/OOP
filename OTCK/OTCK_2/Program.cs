@@ -1,4 +1,4 @@
-﻿// Bài 1(1,2,3): https://v1study.com/csharp-bai-tap-phan-thua-ke-va-da-hinh.html
+﻿// Bài 1: https://v1study.com/csharp-bai-tap-phan-thua-ke-va-da-hinh.html
 class Persion
 {
     public string name,sex,address,date;
@@ -115,6 +115,90 @@ class StudentTest
                     break;
                 case 7 : return;
             }
+        }
+    }
+}
+class Teacher : Persion
+{
+    public char lopday;
+    public double luongh,sogioday,luong=0;
+    public override void inputInfo()
+    {
+        base.inputInfo();
+        Console.Write("Nhap Lop Day (G,H,I,K,L,M): ");
+        lopday = Console.ReadKey().KeyChar;
+        Console.Write("\nLuong moi gio: ");
+        luongh = double.Parse(Console.ReadLine());
+        Console.Write("So gio day: ");
+        sogioday = double.Parse(Console.ReadLine());
+    }
+    public override void showInfo()
+    {
+        base.showInfo();
+        Console.WriteLine($"; Lop Day: {lopday}; sogioday: {sogioday}; luongh: {luongh}; Luong nhan: {luong}");
+    }
+    public void Luong()
+    {
+        if (lopday == 'G' || lopday == 'H' || lopday == 'I' || lopday == 'K')
+        {
+            luong = luongh * sogioday;
+        }
+        else if (lopday == 'L' || lopday == 'M')
+        {
+            luong = luongh * sogioday + 200000;
+        }
+    }
+}
+class TeacherTest
+{
+    static void Main()
+    {
+        Console.WriteLine(@"
+        Bam 1 : Nhap n giang vien
+        Bam 2 : Hien thi thong tin giang vien
+        Bam 3 : Hien thi thong tin giang vien co so gio day cao nhat
+        Bam 4 : Hien thi thong tin giang vien co luong thuc nhan cao nhat
+        Bam 5 : Dung");
+        List<Teacher> DS_GV = new List<Teacher>();
+        while (true)
+        {
+            Console.Write("Bam chon : ");
+            int chon = int.Parse(Console.ReadLine());
+            switch (chon)
+            {
+                case 1 :
+                    Console.Write("Nhap so giang vien: ");
+                    int n = int.Parse(Console.ReadLine());
+                    for(int i = 0 ; i<n ; i++)
+                    {
+                        Teacher giangvien = new Teacher();
+                        giangvien.inputInfo();
+                        giangvien.Luong();
+                        Console.WriteLine();
+                        DS_GV.Add(giangvien);
+                    }
+                    break;
+                case 2 :
+                    Console.WriteLine("\nThong tin Giang vien da nhap:");
+                    foreach(var i in DS_GV) i.showInfo();
+                    break;
+                case 3 :
+                    Console.WriteLine("\nGiang Vien co so gio day cao nhat: ");
+                    foreach(var i in DS_GV)
+                    {
+                        if(i.sogioday == DS_GV.Max(a => a.sogioday)) i.showInfo();
+                    }
+                    break;
+                case 4 : 
+                    Console.WriteLine("\nGiang Vien co so luong cao nhat: ");
+                    foreach(var i in DS_GV)
+                    {
+                        if(i.luong == DS_GV.Max(a => a.luong)) i.showInfo();
+                    }
+                    break;
+                case 5 : return;
+            }
+
         }
     }
 }
