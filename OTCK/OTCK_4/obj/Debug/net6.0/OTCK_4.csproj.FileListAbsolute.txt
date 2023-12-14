@@ -1,0 +1,15 @@
+G:\HocTap\OOP\OTCK\OTCK_4\bin\Debug\net6.0\OTCK_4.exe
+G:\HocTap\OOP\OTCK\OTCK_4\bin\Debug\net6.0\OTCK_4.deps.json
+G:\HocTap\OOP\OTCK\OTCK_4\bin\Debug\net6.0\OTCK_4.runtimeconfig.json
+G:\HocTap\OOP\OTCK\OTCK_4\bin\Debug\net6.0\OTCK_4.dll
+G:\HocTap\OOP\OTCK\OTCK_4\bin\Debug\net6.0\OTCK_4.pdb
+G:\HocTap\OOP\OTCK\OTCK_4\obj\Debug\net6.0\OTCK_4.csproj.AssemblyReference.cache
+G:\HocTap\OOP\OTCK\OTCK_4\obj\Debug\net6.0\OTCK_4.GeneratedMSBuildEditorConfig.editorconfig
+G:\HocTap\OOP\OTCK\OTCK_4\obj\Debug\net6.0\OTCK_4.AssemblyInfoInputs.cache
+G:\HocTap\OOP\OTCK\OTCK_4\obj\Debug\net6.0\OTCK_4.AssemblyInfo.cs
+G:\HocTap\OOP\OTCK\OTCK_4\obj\Debug\net6.0\OTCK_4.csproj.CoreCompileInputs.cache
+G:\HocTap\OOP\OTCK\OTCK_4\obj\Debug\net6.0\OTCK_4.dll
+G:\HocTap\OOP\OTCK\OTCK_4\obj\Debug\net6.0\refint\OTCK_4.dll
+G:\HocTap\OOP\OTCK\OTCK_4\obj\Debug\net6.0\OTCK_4.pdb
+G:\HocTap\OOP\OTCK\OTCK_4\obj\Debug\net6.0\OTCK_4.genruntimeconfig.cache
+G:\HocTap\OOP\OTCK\OTCK_4\obj\Debug\net6.0\ref\OTCK_4.dll
