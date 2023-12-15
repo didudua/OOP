@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\HocTap\\THIKTHP\\Thi\\Thi.csproj",
-      "projectName": "Thi",
-      "projectPath": "G:\\HocTap\\THIKTHP\\Thi\\Thi.csproj",
+      "projectUniqueName": "G:\\HocTap\\OOP\\ThiCK\\ThiCK.csproj",
+      "projectName": "ThiCK",
+      "projectPath": "G:\\HocTap\\OOP\\ThiCK\\ThiCK.csproj",
       "packagesPath": "C:\\Users\\Do Van Vu\\.nuget\\packages\\",
-      "outputPath": "G:\\HocTap\\THIKTHP\\Thi\\obj\\",
+      "outputPath": "G:\\HocTap\\OOP\\ThiCK\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Do Van Vu\\AppData\\Roaming\\NuGet\\NuGet.Config"

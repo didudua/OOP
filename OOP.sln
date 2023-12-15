@@ -97,6 +97,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTCK_3", "OTCK\OTCK_3\OTCK_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OTCK_4", "OTCK\OTCK_4\OTCK_4.csproj", "{EF0A7D08-8DFE-4A14-8ED5-6C7E3C3552B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThiCK", "ThiCK\ThiCK.csproj", "{F863623C-CDA1-4A69-8116-F7DBB745FA09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -263,6 +265,10 @@ Global
 		{EF0A7D08-8DFE-4A14-8ED5-6C7E3C3552B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF0A7D08-8DFE-4A14-8ED5-6C7E3C3552B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF0A7D08-8DFE-4A14-8ED5-6C7E3C3552B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F863623C-CDA1-4A69-8116-F7DBB745FA09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F863623C-CDA1-4A69-8116-F7DBB745FA09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F863623C-CDA1-4A69-8116-F7DBB745FA09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F863623C-CDA1-4A69-8116-F7DBB745FA09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
