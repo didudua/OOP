@@ -1,0 +1,15 @@
+G:\HocTap\THIKTHP\Thi\bin\Debug\net6.0\Thi.exe
+G:\HocTap\THIKTHP\Thi\bin\Debug\net6.0\Thi.deps.json
+G:\HocTap\THIKTHP\Thi\bin\Debug\net6.0\Thi.runtimeconfig.json
+G:\HocTap\THIKTHP\Thi\bin\Debug\net6.0\Thi.dll
+G:\HocTap\THIKTHP\Thi\bin\Debug\net6.0\Thi.pdb
+G:\HocTap\THIKTHP\Thi\obj\Debug\net6.0\Thi.csproj.AssemblyReference.cache
+G:\HocTap\THIKTHP\Thi\obj\Debug\net6.0\Thi.GeneratedMSBuildEditorConfig.editorconfig
+G:\HocTap\THIKTHP\Thi\obj\Debug\net6.0\Thi.AssemblyInfoInputs.cache
+G:\HocTap\THIKTHP\Thi\obj\Debug\net6.0\Thi.AssemblyInfo.cs
+G:\HocTap\THIKTHP\Thi\obj\Debug\net6.0\Thi.csproj.CoreCompileInputs.cache
+G:\HocTap\THIKTHP\Thi\obj\Debug\net6.0\Thi.dll
+G:\HocTap\THIKTHP\Thi\obj\Debug\net6.0\refint\Thi.dll
+G:\HocTap\THIKTHP\Thi\obj\Debug\net6.0\Thi.pdb
+G:\HocTap\THIKTHP\Thi\obj\Debug\net6.0\Thi.genruntimeconfig.cache
+G:\HocTap\THIKTHP\Thi\obj\Debug\net6.0\ref\Thi.dll
